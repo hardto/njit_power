@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--启动项设置为 trace，加载 springboot 启动内部各种详细输出-->
+<Configuration status="trace">
+    <Appenders>
+        <!--添加一个控制台追加器-->
+        <Console name="Console" target="SYSTEM_OUT" follow="true">
+            <PatternLayout>
+                <pattern>[%-5p] %d %c - %m%n</pattern>
+            </PatternLayout>
+        </Console>
+        <!--添加一个文本追加器，文件位于根目录下，名为log.log-->
+        <File name="File" fileName="log.out">
+            <PatternLayout>
+                <pattern>[%-5p] %d %c - %m%n</pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <!--<Logger name="edu.njit" level="debug" />-->
+        <!--记录 qg.fangrui.boot 包及其子包 debug 及其以上的记录，并输出到文件中-->
+        <Logger name="edu.njit" level="info">
+            <!-- AppenderRef 可以控制文件输出对象-->
+            <AppenderRef ref="File" />
+        </Logger>
+        <!--根记录全部输出到控制台上-->
+        <Root level="info">
+            <AppenderRef ref="Console" />
+        </Root>
+    </Loggers>
+</Configuration>

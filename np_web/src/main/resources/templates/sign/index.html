@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>SecretHtml</title>
-    <link th:src="@{/initCss/bootstrap.css}" rel="stylesheet">
-    <link th:src="@{/initCss/bootstrap-theme.css}" rel="stylesheet">
+    <link th:href="@{/initCss/bootstrap.css}" rel="stylesheet">
+    <link th:href="@{/initCss/bootstrap-theme.css}" rel="stylesheet">
     <script th:src="@{/initJavaScript/jquery-3.1.1.min.js}"></script>
     <script th:src="@{/initJavaScript/vue.min.js}"></script>
     <script th:src="@{/initJavaScript/bootstrap.min.js}"></script>
@@ -22,10 +22,7 @@
     new Vue({
         el:"#example",
         data:{
-            items:[
-                {text:"lizhenyu"},
-                {text:"project testing"}
-            ]
+            items : [{text:"lizhenyu"},{text:"wangdong"}]
         }
     });
 </script>
