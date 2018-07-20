@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/np_entity/np_entity.iml" filepath="$PROJECT_DIR$/np_entity/np_entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/np_repo/np_repo.iml" filepath="$PROJECT_DIR$/np_repo/np_repo.iml" />
       <module fileurl="file://$PROJECT_DIR$/np_service/np_service.iml" filepath="$PROJECT_DIR$/np_service/np_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/np_util/np_util.iml" filepath="$PROJECT_DIR$/np_util/np_util.iml" />
       <module fileurl="file://$PROJECT_DIR$/np_web/np_web.iml" filepath="$PROJECT_DIR$/np_web/np_web.iml" />
     </modules>
   </component>

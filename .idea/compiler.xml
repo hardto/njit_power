@@ -9,6 +9,7 @@
         <module name="np_entity" />
         <module name="np_repo" />
         <module name="np_service" />
+        <module name="np_util" />
         <module name="np_web" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="np_entity" target="1.8" />
       <module name="np_repo" target="1.8" />
       <module name="np_service" target="1.8" />
+      <module name="np_util" target="1.8" />
       <module name="np_web" target="1.8" />
     </bytecodeTargetLevel>
   </component>

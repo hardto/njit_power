@@ -11,6 +11,7 @@
         <module>np_service</module>
         <module>np_entity</module>
         <module>np_web</module>
+        <module>np_util</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -62,12 +63,12 @@
 
 
 
+
         <dependency>
             <groupId>edu.njit</groupId>
-            <artifactId>np_entity</artifactId>
+            <artifactId>np_util</artifactId>
             <version>${proj-version}</version>
         </dependency>
-
 
     </dependencies>
 
