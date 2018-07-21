@@ -1,4 +1,4 @@
-package edu.njit.app;
+package edu.njit.config;
 
 import edu.njit.test.Test;
 import org.springframework.context.annotation.Bean;

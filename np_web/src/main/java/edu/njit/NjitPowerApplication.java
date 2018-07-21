@@ -1,4 +1,4 @@
-package edu.njit.app;
+package edu.njit;
 
 import edu.njit.mapper.UserMapper;
 import org.mybatis.spring.annotation.MapperScan;
