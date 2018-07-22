@@ -50,8 +50,8 @@ alter table t_basic_user comment '基本用户表';
 create table t_message
 (
    id                   int not null comment '主键',
-   user_id              int not null comment '用户主键',
-   "from"               int not null comment '用户主键',
+   to_user_id           int not null comment '收到用户主键',
+   from_user_id         int not null comment '发送用户主键',
    title                varchar(128) comment '标题',
    content              text comment '内容',
    create_time          datetime comment '创建消息的时间',
@@ -135,7 +135,7 @@ alter table t_user_role comment '用户角色中间表';
 alter table t_basic_user add constraint FK_Reference_1 foreign key (user_id)
       references t_user (id) on delete restrict on update restrict;
 
-alter table t_message add constraint FK_Reference_7 foreign key (user_id)
+alter table t_message add constraint FK_Reference_7 foreign key (to_user_id)
       references t_basic_user (id) on delete restrict on update restrict;
 
 alter table t_role_auth add constraint FK_Reference_3 foreign key (auth_id)

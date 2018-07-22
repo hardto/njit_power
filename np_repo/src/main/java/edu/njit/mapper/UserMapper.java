@@ -1,20 +1,31 @@
 package edu.njit.mapper;
 
 import edu.njit.model.User;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.type.JdbcType;
+import org.apache.ibatis.annotations.Mapper;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+@Component
+@Mapper
 public interface UserMapper {
-    @Select("SELECT * FROM user")
-    @Results({
-            @Result(property = "id",  column = "id",jdbcType = JdbcType.INTEGER,javaType = Integer.class),
-            @Result(property = "name", column = "name")
-    })
+    int deleteByPrimaryKey(Integer id);
+
+    int insert(User record);
+
+    int insertSelective(User record);
+
+    User selectByPrimaryKey(Integer id);
+
+    int updateByPrimaryKeySelective(User record);
+
+    int updateByPrimaryKeyWithBLOBs(User record);
+
+    int updateByPrimaryKey(User record);
+
     List<User> getAll();
 
+    int getTablePrimaryKeyForNext();
 
+    User getUserByEmail(String mail);
 }

@@ -24,7 +24,7 @@ public class SystemUrlInterceptor implements HandlerInterceptor {
             logger.warn(WebUtils.getClientIP(request)+"于"+WebUtils.getTimeNow()+"访问此网站");
             return true;
         }
-        logger.warn(WebUtils.getClientIP(request)+"于"+WebUtils.getTimeNow()+"未登录访问此网站");
+        logger.warn(WebUtils.getClientIP(request)+"于"+WebUtils.getTimeNowWithPattern(Const.timeFullPattern)+"未登录访问此网站");
         return false;
 
     }

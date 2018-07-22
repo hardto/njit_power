@@ -129,3 +129,91 @@
 [INFO ] 2018-07-21 18:16:23,782 edu.njit.NjitPowerApplication - The following profiles are active: dev
 [INFO ] 2018-07-21 18:16:39,101 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 17.512 seconds (JVM running for 27.277)
 [WARN ] 2018-07-21 18:22:49,857 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018721未登录访问此网站
+[INFO ] 2018-07-22 11:33:02,704 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 8488 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 11:33:02,762 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 11:33:25,768 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 26.13 seconds (JVM running for 37.958)
+[WARN ] 2018-07-22 11:33:58,010 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018722未登录访问此网站
+[WARN ] 2018-07-22 11:33:58,568 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018722未登录访问此网站
+[WARN ] 2018-07-22 11:34:17,003 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018722未登录访问此网站
+[WARN ] 2018-07-22 11:34:17,045 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018722未登录访问此网站
+[INFO ] 2018-07-22 11:36:50,408 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 796 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 11:36:50,450 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 11:37:04,909 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 17.821 seconds (JVM running for 25.876)
+[WARN ] 2018-07-22 11:37:15,919 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018-07-22 11:37:15未登录访问此网站
+[WARN ] 2018-07-22 11:37:16,043 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018-07-22 11:37:15未登录访问此网站
+[INFO ] 2018-07-22 11:41:19,048 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 2932 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 11:41:19,093 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 11:41:34,062 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 17.859 seconds (JVM running for 26.254)
+[WARN ] 2018-07-22 11:48:02,826 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018-07-22 11:48:02未登录访问此网站
+[WARN ] 2018-07-22 11:48:03,197 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018-07-22 11:48:02未登录访问此网站
+[WARN ] 2018-07-22 11:48:03,262 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018-07-22 11:48:02未登录访问此网站
+[INFO ] 2018-07-22 11:50:15,274 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 6876 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 11:50:15,288 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 11:50:30,024 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 17.566 seconds (JVM running for 26.029)
+[ERROR] 2018-07-22 11:50:48,605 edu.njit.NjitPowerApplication - ============由于表里是空的==================
+[INFO ] 2018-07-22 11:59:17,061 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 6508 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 11:59:17,108 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 12:00:36,022 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 924 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 12:00:36,022 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 12:07:07,751 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 196 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 12:07:07,752 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 12:09:40,367 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 1284 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 12:09:40,368 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 12:10:02,451 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 24.954 seconds (JVM running for 33.096)
+[ERROR] 2018-07-22 12:10:27,118 edu.njit.NjitPowerApplication - ============由于表里是空的==================
+[INFO ] 2018-07-22 12:14:04,173 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 8344 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 12:14:04,174 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 12:14:25,018 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 23.784 seconds (JVM running for 32.159)
+[ERROR] 2018-07-22 12:14:35,335 edu.njit.NjitPowerApplication - ============由于表里是空的==================
+[INFO ] 2018-07-22 12:17:39,493 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 6568 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 12:17:39,494 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 12:18:00,631 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 25.536 seconds (JVM running for 32.982)
+[INFO ] 2018-07-22 12:27:58,179 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 9880 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 12:27:58,179 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 12:28:18,371 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 24.008 seconds (JVM running for 31.264)
+[ERROR] 2018-07-22 12:28:41,116 edu.njit.NjitPowerApplication - ============由于表里是空的==================
+[ERROR] 2018-07-22 12:28:43,625 edu.njit.NjitPowerApplication - 1
+
+[ERROR] 2018-07-22 12:28:43,626 edu.njit.NjitPowerApplication - ==============================
+[INFO ] 2018-07-22 12:38:43,193 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 1248 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 12:38:43,194 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 12:39:05,478 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 25.782 seconds (JVM running for 33.419)
+[WARN ] 2018-07-22 12:40:30,440 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018-07-22 12:40:30未登录访问此网站
+[INFO ] 2018-07-22 13:34:33,711 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 4468 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 13:34:33,712 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 13:34:53,475 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 22.314 seconds (JVM running for 30.233)
+[WARN ] 2018-07-22 13:34:59,458 edu.njit.interceptors.SystemUrlInterceptor - 0:0:0:0:0:0:0:1于2018-07-22 13:34:59未登录访问此网站
+[INFO ] 2018-07-22 13:35:37,887 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 9244 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 13:35:37,888 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 13:36:01,167 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 26.839 seconds (JVM running for 34.783)
+[ERROR] 2018-07-22 13:36:12,293 edu.njit.NjitPowerApplication - ============查出表中数据==================
+[INFO ] 2018-07-22 13:38:38,895 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 4120 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 13:38:38,896 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 13:38:58,779 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 23.991 seconds (JVM running for 32.238)
+[ERROR] 2018-07-22 13:40:38,900 edu.njit.NjitPowerApplication - ============查出表中数据==================
+[ERROR] 2018-07-22 13:40:40,513 edu.njit.NjitPowerApplication - 2
+
+[ERROR] 2018-07-22 13:40:40,514 edu.njit.NjitPowerApplication - ==============================
+[INFO ] 2018-07-22 13:56:48,744 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 11340 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 13:56:48,745 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 13:57:08,234 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 21.906 seconds (JVM running for 30.754)
+[ERROR] 2018-07-22 13:57:27,407 edu.njit.NjitPowerApplication - ============查出表中数据开始==================
+[ERROR] 2018-07-22 13:57:29,067 edu.njit.NjitPowerApplication - 2
+
+[ERROR] 2018-07-22 13:57:29,068 edu.njit.NjitPowerApplication - ============查出表中数据结束==================
+[INFO ] 2018-07-22 14:13:38,942 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 11988 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 14:13:38,942 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 14:14:01,839 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 26.923 seconds (JVM running for 34.147)
+[ERROR] 2018-07-22 14:14:08,622 edu.njit.NjitPowerApplication - ============查出表中数据开始==================
+[ERROR] 2018-07-22 14:14:10,550 edu.njit.NjitPowerApplication - true
+
+[ERROR] 2018-07-22 14:14:10,550 edu.njit.NjitPowerApplication - ============查出表中数据结束==================
+[INFO ] 2018-07-22 15:07:28,937 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 4468 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 15:07:28,944 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 15:07:52,297 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 26.332 seconds (JVM running for 41.078)
+[INFO ] 2018-07-22 15:10:19,572 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 9308 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 15:10:19,587 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 15:10:44,338 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 27.362 seconds (JVM running for 39.03)
+[INFO ] 2018-07-22 15:15:16,049 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 12056 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-22 15:15:16,050 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-22 15:15:38,545 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 26.735 seconds (JVM running for 35.326)

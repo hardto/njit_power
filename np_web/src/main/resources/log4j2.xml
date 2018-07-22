@@ -13,6 +13,10 @@
             <PatternLayout>
                 <pattern>[%-5p] %d %c - %m%n</pattern>
             </PatternLayout>
+            <Policies>
+                <!-- 每个日志文件最大2MB -->
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
         </File>
     </Appenders>
     <Loggers>
@@ -23,7 +27,7 @@
             <AppenderRef ref="File" />
         </Logger>
         <!--根记录全部输出到控制台上-->
-        <Root level="info">
+        <Root level="debug">
             <AppenderRef ref="Console" />
         </Root>
     </Loggers>
