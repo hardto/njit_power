@@ -59,7 +59,7 @@ public class WebUtils {
 
         // 创建邮件对象
         Message msg = new MimeMessage(session);
-        msg.setSubject("站点注册验证码");
+        msg.setSubject("站点验证码");
         // 设置邮件内容
         msg.setText("您的验证码是:"+code);
         // 设置发件人
