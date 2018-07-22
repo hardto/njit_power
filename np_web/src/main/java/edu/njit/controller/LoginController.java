@@ -26,31 +26,12 @@ import java.util.Map;
 
 @Controller
 public class LoginController {
-    private Logger logger = LoggerFactory.getLogger(NjitPowerApplication.class);
-
-//    @Autowired
-//    private BasicUserMapper basicUserMapper;
 
     @Autowired
     private SystemService systemService;
 
     @Autowired
     private UserService userService;
-
-
-    @RequestMapping("/log")
-    public String helloworld(Model model){
-        logger.error("============查出表中数据开始==================");
-//        logger.error(basicUserMapper.isStuWithFlag("1")+"\n");
-//        List<Map<String,String>> list = new ArrayList<Map<String,String>>(0) ;
-//        Map<String,String> map = new HashMap<>();
-//        map.put("text","lizhenyu");
-//        map.put("text","wangdong");
-//        list.add(map);
-//        model.addAttribute("users",list);
-        logger.error("============查出表中数据结束==================");
-        return "/sign/index";
-    }
 
     @RequestMapping(value = "/sendMail",method = RequestMethod.POST)
     public @ResponseBody SimpleSystemMessage sendMail(String email, HttpServletRequest request){
