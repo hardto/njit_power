@@ -12,12 +12,12 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class SystemInterceptorConfigAdapter implements WebMvcConfigurer {
     private Logger logger = LoggerFactory.getLogger(SystemInterceptorConfigAdapter.class);
-//    @Autowired
-//    private SystemUrlInterceptor systemUrlInterceptor;
-//    @Override
-//    public void addInterceptors(InterceptorRegistry registry) {
-//        registry.addInterceptor(systemUrlInterceptor).addPathPatterns("/**");
-//    }
+    @Autowired
+    private SystemUrlInterceptor systemUrlInterceptor;
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(systemUrlInterceptor).addPathPatterns("/service/**");
+    }
 
 //    @Override
 //    public void addViewControllers(ViewControllerRegistry registry) {

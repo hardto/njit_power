@@ -29,4 +29,11 @@ public interface BasicUserMapper {
     BasicUser selectUserByAccount(String account);
 
     BasicUser selectUserByAccountAndPwd(String account,String pwd);
+
+    /**
+     * 由二级用户表主键查询到一级用户表信息
+     * @param user_id
+     * @return
+     */
+    BasicUser getBasicUserByUserId(int user_id);
 }

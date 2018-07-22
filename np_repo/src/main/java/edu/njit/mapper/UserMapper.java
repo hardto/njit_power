@@ -28,4 +28,6 @@ public interface UserMapper {
     int getTablePrimaryKeyForNext();
 
     User getUserByEmail(String mail);
+
+    User getUserByAccount(String account);
 }

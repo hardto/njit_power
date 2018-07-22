@@ -35,6 +35,16 @@
     col2
   </sql>
 
+  <select id="getUserByAccount" resultType="edu.njit.model.User">
+    select
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from t_user
+    where
+    account = #{0}
+  </select>
+
   <select id="getUserByEmail" resultType="edu.njit.model.User">
     select
     <include refid="Base_Column_List" />

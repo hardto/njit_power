@@ -20,6 +20,16 @@
   <sql id="Blob_Column_List" >
     col2
   </sql>
+
+  <select id="getBasicUserByUserId" resultType="edu.njit.model.BasicUser">
+    select
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from t_basic_user
+    where user_id=#{0}
+  </select>
+
   <select id="selectUserByAccountAndPwd" resultType="edu.njit.model.BasicUser">
     select
     <include refid="Base_Column_List" />
