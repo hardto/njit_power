@@ -1,5 +1,8 @@
 package edu.njit.WebUtils;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
@@ -9,6 +12,8 @@ import java.util.Calendar;
 import java.util.Properties;
 
 public class WebUtils {
+
+    private static Logger logger = LoggerFactory.getLogger(WebUtils.class);
 
     private static Calendar calendar = Calendar.getInstance();
 
@@ -41,6 +46,7 @@ public class WebUtils {
 
 
     public static void sendEmail(String code,String useremail) throws MessagingException {
+        logger.info("验证码已经发送至"+useremail);
         Properties properties = new Properties();
         //开启debug调试
         properties.setProperty("mail.debug", "true");
