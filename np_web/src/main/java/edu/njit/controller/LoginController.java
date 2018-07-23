@@ -29,7 +29,7 @@ public class LoginController {
     public @ResponseBody SimpleSystemMessage validMailCode(String code, HttpServletRequest request){
         return systemService.validMailCode(request,code);
     }
-    @RequestMapping(value = "/hasUser",method = RequestMethod.GET)
+    @RequestMapping(value = "/hasUser",method = RequestMethod.POST)
     @Token(save=true)
     public @ResponseBody SimpleSystemMessage hasUser(String account,String password,HttpServletRequest request){
         return userService.hasUser(account,password,request);
