@@ -10,11 +10,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>np_service</artifactId>
-
+    <packaging>jar</packaging>
     <dependencies>
         <dependency>
             <groupId>edu.njit</groupId>
             <artifactId>np_entity</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.njit</groupId>
+            <artifactId>np_util</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

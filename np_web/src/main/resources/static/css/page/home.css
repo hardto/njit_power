@@ -1,0 +1,34 @@
+html,
+body {
+    height: 100%;
+}
+
+#head {
+    height: 74px;
+    background-image: url(/img/home/header.png);
+    box-shadow: 0 0 4px #1c89e5;
+    position: relative;
+    z-index: 1;
+}
+
+#nav {
+    width: 200px;
+    background-color: #96cdfa;
+    position: relative;
+}
+
+.nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 80px;
+}
+
+.nav__list__item {
+    height: 74px;
+    line-height: 74px;
+    font-weight: bold;
+}
+
+.nav__list__item::before {
+    content: ">"
+}

@@ -12,7 +12,6 @@ import java.util.Calendar;
 import java.util.Properties;
 
 public class WebUtils {
-
     private static Logger logger = LoggerFactory.getLogger(WebUtils.class);
 
     private static Calendar calendar = Calendar.getInstance();

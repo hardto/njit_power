@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="renderer" content="webkit">
+    <title>学生OA管理系统 - 电力工程学院</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="bookmark" href="/favicon.ico" />
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/page/index.css">
+    <script src="/js/lib/vue.js"></script>
+    <script src="/js/lib/axios.min.js"></script>
+    <!-- <script src="/js/lib/jquery-3.3.1.js"></script> -->
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <h1 class="header__title">电力工程学院</h1>
+            <p class="header__presentation">学生OA管理系统</p>
+        </header>
+        <form class="loginForm" id="loginForm">
+            <h1 class="loginForm__title">用户登录</h1>
+            <input class="loginForm__textBox useIcon" v-model="loginForm.account" placeholder="请输入用户名">
+            <input class="loginForm__textBox pwdIcon" v-model="loginForm.password" type="password" placeholder="请输入密码">
+            <label class="loginForm__rememb" for="rememb"><input class="loginForm__rememb__checkbox" id="rememb" type="checkbox">记住我</label>
+            <a class="loginForm__forgetPassword" href="#" target="_blank">忘记密码？</a>
+            <input class="loginForm__loginButton" @click.prevent="login" type="submit" value="登录">
+            <a class="loginForm__encounterProblem" href="#" target="_blank">遇到问题</a>
+        </form>
+    </main>
+    <script src="/js/common.js"></script>
+    <script src="/js/page/index.js"></script>
+</body>
+
+</html>
