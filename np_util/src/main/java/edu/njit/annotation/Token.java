@@ -8,4 +8,5 @@ import java.lang.annotation.*;
 public @interface Token {
     boolean save() default false;
     boolean remove() default false;
+    boolean vlidate() default true;
 }

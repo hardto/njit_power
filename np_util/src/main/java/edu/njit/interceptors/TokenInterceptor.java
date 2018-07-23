@@ -28,6 +28,12 @@ public class TokenInterceptor extends HandlerInterceptorAdapter {
                 if (needSaveSession) {
                     request.getSession(true).setAttribute("token", UUID.randomUUID().toString());
                 }
+                boolean vlidate =  annotation.vlidate();
+                if(vlidate){
+                    if (isRepeatSubmit(request)) {
+                        return false;
+                    }
+                }
                 boolean needRemoveSession = annotation.remove();
                 if (needRemoveSession) {
                     if (isRepeatSubmit(request)) {
