@@ -41,7 +41,7 @@
     ,
     <include refid="Blob_Column_List" />
     from t_user
-    where
+    whereaccout
     account = #{0}
   </select>
 

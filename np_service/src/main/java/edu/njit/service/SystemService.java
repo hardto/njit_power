@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import javax.mail.MessagingException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.util.Map;
 
 @Service
 public class SystemService {
@@ -22,7 +23,7 @@ public class SystemService {
 
     public SimpleSystemMessage sendEmail(HttpServletRequest request,String email){
         User user = userMapper.getUserByEmail(email);
-        SystemMessage<Object> returnMsg = new SystemMessage<>();
+        SystemMessage<String,String> returnMsg = new SystemMessage<>();
         if(!ObectUtils.isNone(user)){
             HttpSession session = request.getSession(true);
             if(!ObectUtils.isEmpty((String) session.getAttribute(Const.USER_ECODE))){
@@ -53,7 +54,7 @@ public class SystemService {
 
     public SimpleSystemMessage validMailCode(HttpServletRequest request,String code) {
         HttpSession session = request.getSession(true);
-        SystemMessage<Object> returnMsg = new SystemMessage<>();
+        SystemMessage<String,String> returnMsg = new SystemMessage<>();
         if(ObectUtils.isEmpty(code)){
             returnMsg.setSuccess(true);
             returnMsg.setMessage("确保验证码符合要求");

@@ -217,3 +217,26 @@
 [INFO ] 2018-07-22 15:15:16,049 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 12056 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
 [INFO ] 2018-07-22 15:15:16,050 edu.njit.NjitPowerApplication - The following profiles are active: dev
 [INFO ] 2018-07-22 15:15:38,545 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 26.735 seconds (JVM running for 35.326)
+[INFO ] 2018-07-23 20:23:25,174 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 10972 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-23 20:23:25,189 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-23 20:24:07,740 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 9572 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-23 20:24:07,741 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-23 20:24:33,074 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 27.54 seconds (JVM running for 36.981)
+[WARN ] 2018-07-23 20:26:14,959 edu.njit.interceptors.TokenInterceptor - token拦截器
+[WARN ] 2018-07-23 20:26:15,274 edu.njit.interceptors.TokenInterceptor - token拦截器
+[WARN ] 2018-07-23 20:26:16,934 edu.njit.interceptors.TokenInterceptor - token拦截器
+[WARN ] 2018-07-23 20:27:57,742 edu.njit.interceptors.TokenInterceptor - token拦截器
+[WARN ] 2018-07-23 20:29:13,147 edu.njit.interceptors.TokenInterceptor - token拦截器
+[INFO ] 2018-07-23 20:30:11,403 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 9892 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-23 20:30:11,403 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-23 20:30:32,151 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 23.498 seconds (JVM running for 30.2)
+[WARN ] 2018-07-23 20:30:43,557 edu.njit.interceptors.TokenInterceptor - token拦截器
+[INFO ] 2018-07-23 20:34:10,540 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 5176 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-23 20:34:10,540 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-23 20:34:28,578 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 19.957 seconds (JVM running for 30.863)
+[WARN ] 2018-07-23 20:34:39,316 edu.njit.interceptors.TokenInterceptor - token拦截器
+[WARN ] 2018-07-23 20:34:58,020 edu.njit.interceptors.TokenInterceptor - token拦截器
+[INFO ] 2018-07-23 20:35:57,386 edu.njit.NjitPowerApplication - Starting NjitPowerApplication on DESKTOP-BICTKLK with PID 8 (E:\ideaPro\njit_power\np_web\target\classes started by ASUS in E:\ideaPro\njit_power)
+[INFO ] 2018-07-23 20:35:57,387 edu.njit.NjitPowerApplication - The following profiles are active: dev
+[INFO ] 2018-07-23 20:36:13,866 edu.njit.NjitPowerApplication - Started NjitPowerApplication in 18.564 seconds (JVM running for 25.937)
+[WARN ] 2018-07-23 20:36:23,276 edu.njit.interceptors.TokenInterceptor - token拦截器

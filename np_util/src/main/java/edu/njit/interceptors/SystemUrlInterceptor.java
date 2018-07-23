@@ -19,13 +19,12 @@ public class SystemUrlInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        String token = request.getParameter("token");
         HttpSession session = request.getSession();
-        if(!ObectUtils.isNone(session)&&!ObectUtils.isEmpty((String) session.getAttribute(Const.USER_KEY))){
-            logger.warn(WebUtils.getClientIP(request)+"于"+WebUtils.getTimeNow()+"访问此网站");
+        if (!ObectUtils.isEmpty(token) && token.equals((String) session.getAttribute("token"))) {
+            logger.warn(WebUtils.getClientIP(request) + "于" + WebUtils.getTimeNow() + "访问此网站");
             return true;
         }
-        logger.warn(WebUtils.getClientIP(request)+"于"+WebUtils.getTimeNowWithPattern(Const.timeFullPattern)+"未登录访问此网站");
         return false;
-
     }
 }

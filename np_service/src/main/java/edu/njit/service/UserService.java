@@ -13,6 +13,11 @@ import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 @Service
 public class UserService {
     @Autowired
@@ -21,7 +26,7 @@ public class UserService {
     private BasicUserMapper basicUserMapper;
 
     public SimpleSystemMessage updateUser(User user){
-        SystemMessage<Object> returnMsg = new SystemMessage<>();
+        SystemMessage<String,String> returnMsg = new SystemMessage<>();
         if(ObectUtils.isNone(user)){
             returnMsg.setMessage("信息获取失败");
             returnMsg.setSuccess(true);
@@ -49,16 +54,21 @@ public class UserService {
     }
 
     public SimpleSystemMessage hasUser(String account, String password, HttpServletRequest request) {
-        SystemMessage<Object> returnMsg = new SystemMessage<>();
+        SystemMessage<String,String> returnMsg = new SystemMessage<>();
         if (ObectUtils.isEmpty(account) || ObectUtils.isEmpty(password)) {
             returnMsg.setFlag(0);
             returnMsg.setSuccess(true);
             returnMsg.setMessage("请输入符合要求的数据");
         } else {
-            BasicUser user = basicUserMapper.selectUserByAccount(account);
+            BasicUser user = basicUserMapper.selectUserByAccountAndPwd(account,password);
             if(!ObectUtils.isNone(user)){
                 returnMsg.setFlag(1);
                 returnMsg.setSuccess(true);
+                List<Map<String,String>> list = new ArrayList<>();
+                Map<String,String> map = new HashMap<>();
+                map.put("token",(String)request.getSession().getAttribute("token"));
+                list.add(map);
+                returnMsg.setRecords(list);
                 request.getSession(true).setAttribute(Const.USER_KEY,account);
             }else{
                 returnMsg.setFlag(0);

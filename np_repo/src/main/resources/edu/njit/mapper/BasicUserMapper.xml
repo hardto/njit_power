@@ -36,7 +36,7 @@
     ,
     <include refid="Blob_Column_List" />
     from t_basic_user
-    where accout=#{0}
+    where account=#{0}
     and
     password=#{1}
   </select>
@@ -46,7 +46,7 @@
     ,
     <include refid="Blob_Column_List" />
     from t_basic_user
-    where accout=#{0}
+    where account=#{0}
   </select>
   <select id="isStuWithFlag" resultType="boolean">
     select cast(flag as UNSIGNED INTEGER) from t_basic_user where id=#{0}
