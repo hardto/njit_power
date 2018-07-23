@@ -64,11 +64,11 @@
 
 
 
-        <dependency>
+        <!--<dependency>
             <groupId>edu.njit</groupId>
             <artifactId>np_util</artifactId>
             <version>${proj-version}</version>
-        </dependency>
+        </dependency>-->
 
     </dependencies>
 

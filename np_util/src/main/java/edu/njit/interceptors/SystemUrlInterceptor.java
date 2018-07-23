@@ -1,6 +1,5 @@
 package edu.njit.interceptors;
 
-import edu.njit.WebUtils.Const;
 import edu.njit.WebUtils.ObectUtils;
 import edu.njit.WebUtils.WebUtils;
 import org.slf4j.Logger;
