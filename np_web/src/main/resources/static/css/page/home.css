@@ -3,6 +3,10 @@ body {
     height: 100%;
 }
 
+body {
+    background-color: #f9f9f9;
+}
+
 #head {
     height: 74px;
     background-image: url(/img/home/header.png);
@@ -13,8 +17,9 @@ body {
 
 #nav {
     width: 200px;
-    background-color: #96cdfa;
+    background-color: #ffffff;
     position: relative;
+    box-shadow: 0 0 2px #1c89e5;
 }
 
 .nav__list {
@@ -24,11 +29,22 @@ body {
 }
 
 .nav__list__item {
-    height: 74px;
     line-height: 74px;
     font-weight: bold;
 }
 
 .nav__list__item::before {
     content: ">"
+}
+
+.subList {
+    margin-left: -80px;
+    background-color: #f9f9f9;
+    padding-left: 120px;
+    font-size: 14px;
+}
+
+.subList__item {
+    height: 50px;
+    line-height: 50px;
 }

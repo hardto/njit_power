@@ -11,8 +11,6 @@
     <link rel="bookmark" href="/favicon.ico" />
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/page/home.css">
-    <script src="/js/lib/vue.js"></script>
-    <script src="/js/lib/axios.min.js"></script>
 </head>
 
 <body>
@@ -26,84 +24,26 @@
             </li>
             <li class="nav__list__item">
                 <a href="#">账号管理</a>
+                <ul class="subList">
+                    <li class="subList__item"><a href="#">学生账号</a></li>
+                    <li class="subList__item"><a href="#">教师账号</a></li>
+                    <li class="subList__item"><a href="#">管理账号</a></li>
+                </ul>
+            </li>
+            <li class="nav__list__item">
+                <a href="#">账号管理</a>
+            </li>
+            <li class="nav__list__item">
+                <a href="#">账号管理</a>
+            </li>
+            <li class="nav__list__item">
+                <a href="#">账号管理</a>
             </li>
         </ul>
     </nav>
     <main id="app">
-        <button @click="getInfo">111</button>
     </main>
     <script src=" /js/common.js "></script>
-    <script>
-        new Vue({
-            el: '#app',
-            methods: {
-                getInfo() {
-                    axios.get(oaURL.api.pageUsers(), {
-                        params: {
-                            fields: ['12', '2121', '1212']
-                        }
-                    })
-
-                    return;
-                    axios.post(
-                            oaURL.api.pageUsers(),
-                            objectToForm({
-                                currentPage: 1,
-                                pageSize: 10,
-                                token: localStorage.getItem('token'),
-                            }), {
-                                withCredentials: true
-                            }
-                        )
-                        .then(function(res) {
-                            console.log(res.data);
-                            switch (res.data.flag) {
-                                case 1:
-                                    console.log('获取信息成功！');
-                                    console.log(res.data.pageBean.items);
-                                    break;
-                                case 0:
-                                    console.warn('获取信息失败！');
-                                    break;
-                                default:
-                                    console.error('服务器开了小差，请等一等。');
-                                    break;
-                            }
-                        })
-                        .catch(function(err) {
-                            console.error(err);
-                        });
-                },
-                searchSchInfo() {
-                    axios({
-                            url: oaURL.api.searchSchInfo(),
-                            method: 'post',
-                            data: objectToForm({
-                                token: localStorage.getItem('token')
-                            }),
-                            withCredentials: true
-                        })
-                        .then(function(res) {
-                            console.log(res.data);
-                            switch (res.data.flag) {
-                                case 1:
-                                    console.log('获取信息成功！');
-                                    break;
-                                case 0:
-                                    console.warn('获取信息失败！');
-                                    break;
-                                default:
-                                    console.error('服务器开了小差，请等一等。');
-                                    break;
-                            }
-                        })
-                        .catch(function(err) {
-                            console.error(err);
-                        });
-                }
-            }
-        });
-    </script>
 </body>
 
 </html>
