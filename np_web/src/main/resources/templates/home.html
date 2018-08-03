@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="bookmark" href="/favicon.ico" />
     <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/page/home.css">
 </head>
 
@@ -25,9 +26,9 @@
             <li class="nav__list__item">
                 <a href="#">账号管理</a>
                 <ul class="subList">
-                    <li class="subList__item"><a href="#">学生账号</a></li>
-                    <li class="subList__item"><a href="#">教师账号</a></li>
-                    <li class="subList__item"><a href="#">管理账号</a></li>
+                    <li class="subList__item"><a class="subList__item__link" href="#">学生账号</a></li>
+                    <li class="subList__item"><a class="subList__item__link" href="#">教师账号</a></li>
+                    <li class="subList__item"><a class="subList__item__link" href="#">管理账号</a></li>
                 </ul>
             </li>
             <li class="nav__list__item">
@@ -41,7 +42,128 @@
             </li>
         </ul>
     </nav>
-    <main id="app">
+    <main>
+        <nav class="tabs">
+            <a class="tabs__item" href="#">管理员</a>
+            <a class="tabs__item" href="#">管理员</a>
+            <a class="tabs__item" href="#">管理员</a>
+        </nav>
+        <section class="content">
+            <div class="content__control">
+                <div class="content__control__add">
+                    <button class="content__control__add__stu oa-button">添加学生</button>
+                    <button class="content__control__add__stus oa-button">批量添加</button>
+                </div>
+                <form class="content__control__filter">
+                    <select class="oa-select">
+                        <option class="oa-select" value="">年级</option>
+                        <option class="oa-option"  value="">2017</option>
+                        <option class="oa-option"  value="">2016</option>
+                        <option class="oa-option"  value="">2015</option>
+                    </select>
+                    <select class="oa-select">
+                        <option class="oa-select" value="">专业</option>
+                        <option class="oa-select" value="">自动化(系统集成)</option>
+                    </select>
+                    <select class="oa-select">
+                        <option class="oa-select" value="">班级</option>
+                        <option class="oa-select" value="">D自集成162</option>
+                    </select>
+                    <input class="oa-inputText" type="text" placeholder="姓名">
+                    <input class="oa-inputText" type="text" placeholder="姓名">
+                    <input class="oa-button" type="submit" value="查询">
+                </form>
+            </div>
+            <table class="content__table">
+                <thead class="content__table__head">
+                    <tr class="content__table__head__col">
+                        <th></th>
+                        <th>学号</th>
+                        <th>姓名</th>
+                        <th>年级</th>
+                        <th>专业</th>
+                        <th>班级</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody class="content__table__body">
+                    <tr class="content__table__body__col">
+                        <td><input type="checkbox"></td>
+                        <td>234160533</td>
+                        <td>唐金健</td>
+                        <td>2016</td>
+                        <td>自动化(系统集成)</td>
+                        <td>D自集成162</td>
+                        <td>
+                            <button>编辑</button>
+                            <button>删除</button>
+                        </td>
+                    </tr>
+                    <tr class="content__table__body__col">
+                        <td><input type="checkbox"></td>
+                        <td>234160533</td>
+                        <td>唐金健</td>
+                        <td>2016</td>
+                        <td>自动化(系统集成)</td>
+                        <td>D自集成162</td>
+                        <td>
+                            <button>编辑</button>
+                            <button>删除</button>
+                        </td>
+                    </tr>
+                    <tr class="content__table__body__col">
+                        <td><input type="checkbox"></td>
+                        <td>234160533</td>
+                        <td>唐金健</td>
+                        <td>2016</td>
+                        <td>自动化(系统集成)</td>
+                        <td>D自集成162</td>
+                        <td>
+                            <button>编辑</button>
+                            <button>删除</button>
+                        </td>
+                    </tr>
+                    <tr class="content__table__body__col">
+                        <td><input type="checkbox"></td>
+                        <td>234160533</td>
+                        <td>唐金健</td>
+                        <td>2016</td>
+                        <td>自动化(系统集成)</td>
+                        <td>D自集成162</td>
+                        <td>
+                            <button>编辑</button>
+                            <button>删除</button>
+                        </td>
+                    </tr>
+                    <tr class="content__table__body__col">
+                        <td><input type="checkbox"></td>
+                        <td>234160533</td>
+                        <td>唐金健</td>
+                        <td>2016</td>
+                        <td>自动化(系统集成)</td>
+                        <td>D自集成162</td>
+                        <td>
+                            <button>编辑</button>
+                            <button>删除</button>
+                        </td>
+                    </tr>
+                    <tr class="content__table__body__col">
+                        <td><input type="checkbox"></td>
+                        <td>234160533</td>
+                        <td>唐金健</td>
+                        <td>2016</td>
+                        <td>自动化(系统集成)</td>
+                        <td>D自集成162</td>
+                        <td>
+                            <button>编辑</button>
+                            <button>删除</button>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                </tfoot>
+            </table>
+        </section>
     </main>
     <script src=" /js/common.js "></script>
 </body>

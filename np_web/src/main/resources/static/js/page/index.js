@@ -19,7 +19,7 @@ new Vue({
                     switch (res.data.flag) {
                         case 1:
                             console.log('登录成功！');
-                            // location.href = 'home.html';
+                            location.href = 'home.html';
                             localStorage.setItem('token', res.data.token);
                             break;
                         case 0:

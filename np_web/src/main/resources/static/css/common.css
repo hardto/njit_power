@@ -1,0 +1,21 @@
+.oa-select {
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    color: #d6d6d6;
+}
+
+.oa-option {
+    padding: 0;
+}
+
+.oa-inputText {
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    color: #d6d6d6;
+}
+
+.oa-button {
+    background-color: #007de3!important;
+    color: #ffffff;
+    border-radius: 4px;
+}
