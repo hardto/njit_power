@@ -19,3 +19,10 @@
     color: #ffffff;
     border-radius: 4px;
 }
+
+.oa-button--border {
+    background-color: #ffffff;
+    border: 1px solid #007de3;
+    border-radius: 4px;
+    color: #007de3;
+}
